@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-02T12:00:53</date>
+  <millis>1562086853608</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Pruebas</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Pruebas</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Pruebas</property>
+</record>
+<record>
+  <date>2019-07-02T12:00:53</date>
+  <millis>1562086853641</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = vale262268 - VALE262268-11.siigo.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">vale262268 - VALE262268-11.siigo.com</property>
+</record>
+<record>
+  <date>2019-07-02T12:00:53</date>
+  <millis>1562086853642</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-07-02T12:00:53</date>
+  <millis>1562086853643</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.192.192.52</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.192.192.52</property>
+</record>
+<record>
+  <date>2019-07-02T12:00:53</date>
+  <millis>1562086853645</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.2.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.2.0.1</property>
+</record>
+<record>
+  <date>2019-07-02T12:00:54</date>
+  <millis>1562086854122</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TS_Login/TC_Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TS_Login/TC_Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TS_Login/TC_Login</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\TS_Login\\TC_Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-02T12:00:54</date>
+  <millis>1562086854193</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Direccion = http://co076nt35:8670</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:00:54</date>
+  <millis>1562086854194</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Usuario = administrador_650@emprendedor.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:00:54</date>
+  <millis>1562086854235</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Contrasena = 2222</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:00:54</date>
+  <millis>1562086854920</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(Direccion)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-02T12:00:55</date>
+  <millis>1562086855596</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:00:55</date>
+  <millis>1562086855750</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:02</date>
+  <millis>1562086862287</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 32b50c18b9ebc7e3b39711cfa1a1b866</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">32b50c18b9ebc7e3b39711cfa1a1b866</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:02</date>
+  <millis>1562086862394</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 75.0.3770.100</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 75.0.3770.100</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:02</date>
+  <millis>1562086862395</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:02</date>
+  <millis>1562086862396</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:02</date>
+  <millis>1562086862397</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:04</date>
+  <millis>1562086864283</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://co076nt35:8670&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:04</date>
+  <millis>1562086864285</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(Direccion)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:04</date>
+  <millis>1562086864285</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:05</date>
+  <millis>1562086865651</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:05</date>
+  <millis>1562086865652</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:05</date>
+  <millis>1562086865652</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/txt_Usuario\&amp;quot;), \&amp;quot;administrador_650@emprendedor.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:06</date>
+  <millis>1562086866358</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;administrador_650@emprendedor.com&amp;apos; is set on object &amp;apos;Object Repository/Page_iSiigo/txt_Usuario&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:06</date>
+  <millis>1562086866359</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/txt_Usuario\&amp;quot;), \&amp;quot;administrador_650@emprendedor.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:06</date>
+  <millis>1562086866360</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/txt_Contrasena\&amp;quot;), \&amp;quot;2222\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:06</date>
+  <millis>1562086866633</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2222&amp;apos; is set on object &amp;apos;Object Repository/Page_iSiigo/txt_Contrasena&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:06</date>
+  <millis>1562086866634</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/txt_Contrasena\&amp;quot;), \&amp;quot;2222\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:06</date>
+  <millis>1562086866634</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Ingresar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:22</date>
+  <millis>1562086882277</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_iSiigo/btn_Ingresar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:22</date>
+  <millis>1562086882278</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Ingresar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:22</date>
+  <millis>1562086882278</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TS_Login/TC_Login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:22</date>
+  <millis>1562086882279</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TS_Login/TC_Login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:22</date>
+  <millis>1562086882290</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TS_Menu/TC_Menu</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TS_Menu/TC_Menu</property>
+  <property name="description">TC_Menu</property>
+  <property name="id">Test Cases/TS_Menu/TC_Menu</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\TS_Menu\\TC_Menu.tc</property>
+  <property name="tag">CC</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:22</date>
+  <millis>1562086882794</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Mas\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:46</date>
+  <millis>1562086906792</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_iSiigo/btn_Mas&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:46</date>
+  <millis>1562086906793</millis>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Mas\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:46</date>
+  <millis>1562086906794</millis>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/lnk_Comprobante contable\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:47</date>
+  <millis>1562086907621</millis>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_iSiigo/lnk_Comprobante contable&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:47</date>
+  <millis>1562086907622</millis>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/lnk_Comprobante contable\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:47</date>
+  <millis>1562086907622</millis>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Guardar\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:49</date>
+  <millis>1562086909898</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_iSiigo/btn_Guardar&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:49</date>
+  <millis>1562086909898</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Guardar\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:49</date>
+  <millis>1562086909898</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TS_Menu/TC_Menu</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:49</date>
+  <millis>1562086909899</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TS_Menu/TC_Menu</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:01:49</date>
+  <millis>1562086909904</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TS_CC/TS_CC_Crea_Enca/TC_CC_Crea_Enca</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TS_CC/TS_CC_Crea_Enca/TC_CC_Crea_Enca</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TS_CC/TS_CC_Crea_Enca/TC_CC_Crea_Enca</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\TS_CC\\TS_CC_Crea_Enca\\TC_CC_Crea_Enca.tc</property>
+  <property name="tag">CC</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-02T12:01:50</date>
+  <millis>1562086910311</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_iSiigo/set_Tipo_Comprobante\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-02T12:02:21</date>
+  <millis>1562086941300</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //select[@id = &amp;apos;ddlType_dropdownSelect&amp;apos; and (text() = &amp;apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&amp;apos; or . = &amp;apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&amp;apos;)]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:02:21</date>
+  <millis>1562086941732</millis>
+  <sequence>102</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/Page_iSiigo/set_Tipo_Comprobante&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object &amp;apos;Object Repository/Page_iSiigo/set_Tipo_Comprobante&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)\r\n\tat TC_CC_Crea_Enca.run(TC_CC_Crea_Enca:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562086848640.run(TempTestSuite1562086848640.groovy:35)\r\nCaused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/Page_iSiigo/set_Tipo_Comprobante&amp;apos; located by &amp;apos;By.xpath: //select[@id = &amp;apos;ddlType_dropdownSelect&amp;apos; and (text() = &amp;apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&amp;apos; or . = &amp;apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&amp;apos;)]&amp;apos; not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)\r\n\tat Script1562085411732.run(Script1562085411732.groovy:17)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">com.kms.katalon.core.webui.exception.WebElementNotFoundException</property>
+  <property name="attachment">1562086941303.png</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &apos;Object Repository/Page_iSiigo/set_Tipo_Comprobante&apos; located by &apos;By.xpath: //select[@id = &apos;ddlType_dropdownSelect&apos; and (text() = &apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&apos; or . = &apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&apos;)]&apos; not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)\r\n\tat TC_CC_Crea_Enca.run(TC_CC_Crea_Enca:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562086848640.run(TempTestSuite1562086848640.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Web element with id: &apos;Object Repository/Page_iSiigo/set_Tipo_Comprobante&apos; located by &apos;By.xpath: //select[@id = &apos;ddlType_dropdownSelect&apos; and (text() = &apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&apos; or . = &apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&apos;)]&apos; not found</property>
+</record>
+<record>
+  <date>2019-07-02T12:02:21</date>
+  <millis>1562086941736</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_iSiigo/set_Tipo_Comprobante\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:02:21</date>
+  <millis>1562086941769</millis>
+  <sequence>106</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TS_CC/TS_CC_Crea_Enca/TC_CC_Crea_Enca FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to click on object &amp;apos;Object Repository/Page_iSiigo/set_Tipo_Comprobante&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)\r\n\tat TC_CC_Crea_Enca.run(TC_CC_Crea_Enca:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562086848640.run(TempTestSuite1562086848640.groovy:35)\r\nCaused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/Page_iSiigo/set_Tipo_Comprobante&amp;apos; located by &amp;apos;By.xpath: //select[@id = &amp;apos;ddlType_dropdownSelect&amp;apos; and (text() = &amp;apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&amp;apos; or . = &amp;apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&amp;apos;)]&amp;apos; not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\t... 19 more\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_iSiigo/set_Tipo_Comprobante'</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>click</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>click</method>
+      <line>616</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC_CC_Crea_Enca</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1562086848640</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &apos;Object Repository/Page_iSiigo/set_Tipo_Comprobante&apos; located by &apos;By.xpath: //select[@id = &apos;ddlType_dropdownSelect&apos; and (text() = &apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&apos; or . = &apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&apos;)]&apos; not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)\r\n\tat TC_CC_Crea_Enca.run(TC_CC_Crea_Enca:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562086848640.run(TempTestSuite1562086848640.groovy:35)\r\n</property>
+  <property name="failed.exception.class">com.kms.katalon.core.webui.exception.WebElementNotFoundException</property>
+  <property name="failed.exception.message">Web element with id: &apos;Object Repository/Page_iSiigo/set_Tipo_Comprobante&apos; located by &apos;By.xpath: //select[@id = &apos;ddlType_dropdownSelect&apos; and (text() = &apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&apos; or . = &apos;    \n    \n    CC-1 - Ajustes contablesCC-2 - Depreciaci\u00F3nCC-3 - CosteoCC-4 - DiferidosCC-5 - Legalizaci\u00F3n de viaticosCC-6 - Legalizaci\u00F3n de Caja menoresCC-7 - Obligaciones financierasCC-8 - N\u00F3minaCC-998 - Cierre a\u00F1oCC-999 - Saldos inicialesCC-992 - Comprobante de n\u00F3minaCC-993 - Comprobante de n\u00F3mina provisi\u00F3n y seguridad socialCC-994 - Comprobante liquidaci\u00F3n de contratoCC-995 - Comprobante liquidaci\u00F3n de primasCC-996 - Comprobante liquidaci\u00F3n de cesant\u00EDasCC-997 - Comprobante desembolso n\u00F3minaCC-10 - Comprobante Contable - Carga y Estres\n&apos;)]&apos; not found</property>
+</record>
+<record>
+  <date>2019-07-02T12:02:21</date>
+  <millis>1562086941774</millis>
+  <sequence>108</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TS_CC/TS_CC_Crea_Enca/TC_CC_Crea_Enca</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T12:02:23</date>
+  <millis>1562086943018</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Pruebas</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>

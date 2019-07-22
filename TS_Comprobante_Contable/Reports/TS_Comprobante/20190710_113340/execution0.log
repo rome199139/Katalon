@@ -1,0 +1,2304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-10T11:33:45</date>
+  <millis>1562776425250</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_Comprobante</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_Comprobante</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TS_Comprobante</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:45</date>
+  <millis>1562776425286</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = vale262268 - VALE262268-11.siigo.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">vale262268 - VALE262268-11.siigo.com</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:45</date>
+  <millis>1562776425288</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:45</date>
+  <millis>1562776425290</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.192.192.52</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.192.192.52</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:45</date>
+  <millis>1562776425291</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.2.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.2.0.1</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:45</date>
+  <millis>1562776425819</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RC_Ingreso Sin menu</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/RC_Ingreso Sin menu</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/RC_Ingreso Sin menu</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\RC_Ingreso Sin menu.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:45</date>
+  <millis>1562776425873</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Direccion = http://co076nt35:8650</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:45</date>
+  <millis>1562776425876</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Usuario = administrador_650@emprendedor.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:45</date>
+  <millis>1562776425877</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Contrasena = 2222</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:46</date>
+  <millis>1562776426792</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;TS_Login/TC_Login\&amp;quot;), [\&amp;quot;Direccion\&amp;quot;:Direccion, \&amp;quot;Usuario\&amp;quot;:Usuario, \&amp;quot;Contrasena\&amp;quot;:Contrasena], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:47</date>
+  <millis>1562776427250</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TS_Login/TC_Login</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/TS_Login/TC_Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TS_Login/TC_Login</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\TS_Login\\TC_Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:47</date>
+  <millis>1562776427274</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Direccion = http://co076nt35:8650</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:47</date>
+  <millis>1562776427276</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Usuario = administrador_650@emprendedor.com</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:47</date>
+  <millis>1562776427278</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Contrasena = 2222</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:47</date>
+  <millis>1562776427815</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(Direccion)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:48</date>
+  <millis>1562776428223</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:48</date>
+  <millis>1562776428306</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:55</date>
+  <millis>1562776435212</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 32869f4283b3acaac03b2564ca016e80</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">32869f4283b3acaac03b2564ca016e80</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:55</date>
+  <millis>1562776435281</millis>
+  <sequence>25</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 75.0.3770.100</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 75.0.3770.100</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:55</date>
+  <millis>1562776435282</millis>
+  <sequence>26</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:55</date>
+  <millis>1562776435283</millis>
+  <sequence>27</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:55</date>
+  <millis>1562776435285</millis>
+  <sequence>28</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:57</date>
+  <millis>1562776437074</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://co076nt35:8650&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:57</date>
+  <millis>1562776437075</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(Direccion)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:57</date>
+  <millis>1562776437075</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:58</date>
+  <millis>1562776438363</millis>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:58</date>
+  <millis>1562776438364</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:58</date>
+  <millis>1562776438364</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/txt_Usuario\&amp;quot;), \&amp;quot;administrador_650@emprendedor.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:58</date>
+  <millis>1562776438796</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;administrador_650@emprendedor.com&amp;apos; is set on object &amp;apos;Object Repository/Page_iSiigo/txt_Usuario&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:58</date>
+  <millis>1562776438797</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/txt_Usuario\&amp;quot;), \&amp;quot;administrador_650@emprendedor.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:58</date>
+  <millis>1562776438798</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/txt_Contrasena\&amp;quot;), \&amp;quot;2222\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-07-10T11:33:59</date>
+  <millis>1562776439008</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2222&amp;apos; is set on object &amp;apos;Object Repository/Page_iSiigo/txt_Contrasena&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:59</date>
+  <millis>1562776439009</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/txt_Contrasena\&amp;quot;), \&amp;quot;2222\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:33:59</date>
+  <millis>1562776439010</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Ingresar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451396</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_iSiigo/btn_Ingresar&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451397</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Ingresar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451397</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(Direccion)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451408</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>http://co076nt35:8650</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451408</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(Direccion)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451409</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TS_Login/TC_Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451409</millis>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TS_Login/TC_Login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451418</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/TS_Login/TC_Login&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451419</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;TS_Login/TC_Login\&amp;quot;), [\&amp;quot;Direccion\&amp;quot;:Direccion, \&amp;quot;Usuario\&amp;quot;:Usuario, \&amp;quot;Contrasena\&amp;quot;:Contrasena], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451419</millis>
+  <sequence>74</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RC_Ingreso Sin menu</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451420</millis>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RC_Ingreso Sin menu</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:11</date>
+  <millis>1562776451430</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TS_Menu/TC_Menu</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TS_Menu/TC_Menu</property>
+  <property name="description">TC_Menu</property>
+  <property name="id">Test Cases/TS_Menu/TC_Menu</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\TS_Menu\\TC_Menu.tc</property>
+  <property name="tag">CC</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:12</date>
+  <millis>1562776452135</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Mas\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:18</date>
+  <millis>1562776458994</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_iSiigo/btn_Mas&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:18</date>
+  <millis>1562776458996</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Mas\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:18</date>
+  <millis>1562776458996</millis>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/lnk_Comprobante contable\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:19</date>
+  <millis>1562776459627</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_iSiigo/lnk_Comprobante contable&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:19</date>
+  <millis>1562776459628</millis>
+  <sequence>95</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/lnk_Comprobante contable\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:19</date>
+  <millis>1562776459629</millis>
+  <sequence>96</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Guardar\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460672</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_iSiigo/btn_Guardar&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460673</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/Page_iSiigo/btn_Guardar\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460673</millis>
+  <sequence>104</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TS_Menu/TC_Menu</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460674</millis>
+  <sequence>105</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TS_Menu/TC_Menu</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460681</millis>
+  <sequence>106</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RC_CC Secu con IF, While</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/RC_CC Secu con IF, While</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/RC_CC Secu con IF, While</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\RC_CC Secu con IF, While.tc</property>
+  <property name="tag">CC</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460694</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Tipo_Comprobante = CC-2 - Depreciaci\u00F3n</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460695</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Maneja_Numeracion_Automatica = SI</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460695</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Numero_Documento = 200</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460696</millis>
+  <sequence>111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Digita_Valida = Valida</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460698</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Ano = 2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460700</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Mes = 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460700</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Dia = 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460701</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Maneja_Moneda_Extranjera = SI</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460701</millis>
+  <sequence>116</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Moneda_Extranjera = USD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460702</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Valor_Tasa_Extranjera = 2990,13</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460702</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_No_Comprobante_Enca = 21</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460702</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Tipo_Cuenta = Vencimiento</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460703</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Cuenta = 11050501</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460703</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Descripcion = Solo Creacion</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460704</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_NitTercero = Tercero 101</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460704</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Debito_o_Credito = C</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460704</millis>
+  <sequence>124</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Valor = 1000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460705</millis>
+  <sequence>125</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Observaciones_Nota_Interna = CC-2 - Depreciaci\u00F3n-200</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460705</millis>
+  <sequence>126</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_No_Comprobante_Secu = 21</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:20</date>
+  <millis>1562776460970</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) Direccion = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462415</millis>
+  <sequence>129</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RC_CC Secu con IF, While FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&amp;quot;!==\&amp;quot; at 16:29:  \&amp;quot;!==\&amp;quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+General error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy
+
+groovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy
+	at org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)
+	at org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)
+	at org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)
+	at org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: org.codehaus.groovy.syntax.SyntaxException: Operator ("!==" at 16:29:  "!==" ) not supported @ line 16, column 29.
+	at org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)
+	... 59 more
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1562776420554</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&quot;!==\&quot; at 16:29:  \&quot;!==\&quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&quot;!==\&quot; at 16:29:  \&quot;!==\&quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462433</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RC_CC Secu con IF, While</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462446</millis>
+  <sequence>132</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RC_CC Secu con IF, While</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/RC_CC Secu con IF, While</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/RC_CC Secu con IF, While</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\RC_CC Secu con IF, While.tc</property>
+  <property name="tag">CC</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462480</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Tipo_Comprobante = CC-2 - Depreciaci\u00F3n</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462482</millis>
+  <sequence>135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Maneja_Numeracion_Automatica = SI</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462482</millis>
+  <sequence>136</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Numero_Documento = 201</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462483</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Digita_Valida = Digita</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462483</millis>
+  <sequence>138</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Ano = 2018</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462484</millis>
+  <sequence>139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Mes = 4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462484</millis>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Dia = 2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462488</millis>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Maneja_Moneda_Extranjera = NO</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462488</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Moneda_Extranjera = USD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462488</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Valor_Tasa_Extranjera = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462492</millis>
+  <sequence>144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_No_Comprobante_Enca = 22</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462493</millis>
+  <sequence>145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Tipo_Cuenta = Impuesto</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462493</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Cuenta = 11050501</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462493</millis>
+  <sequence>147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Descripcion = Solo Creacion</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462510</millis>
+  <sequence>148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_NitTercero = Tercero 101</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462511</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Debito_o_Credito = D</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462511</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Valor = 3200</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462512</millis>
+  <sequence>151</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Observaciones_Nota_Interna = CC-2 - Depreciaci\u00F3n-201</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462512</millis>
+  <sequence>152</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_No_Comprobante_Secu = 21</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:22</date>
+  <millis>1562776462532</millis>
+  <sequence>153</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) Direccion = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463820</millis>
+  <sequence>155</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RC_CC Secu con IF, While FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&amp;quot;!==\&amp;quot; at 16:29:  \&amp;quot;!==\&amp;quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+General error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy
+
+groovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy
+	at org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)
+	at org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)
+	at org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)
+	at org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: org.codehaus.groovy.syntax.SyntaxException: Operator ("!==" at 16:29:  "!==" ) not supported @ line 16, column 29.
+	at org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)
+	... 59 more
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1562776420554</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&quot;!==\&quot; at 16:29:  \&quot;!==\&quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&quot;!==\&quot; at 16:29:  \&quot;!==\&quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463840</millis>
+  <sequence>157</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RC_CC Secu con IF, While</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463860</millis>
+  <sequence>158</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RC_CC Secu con IF, While</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/RC_CC Secu con IF, While</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/RC_CC Secu con IF, While</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\RC_CC Secu con IF, While.tc</property>
+  <property name="tag">CC</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463929</millis>
+  <sequence>160</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Tipo_Comprobante = CC-2 - Depreciaci\u00F3n</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463930</millis>
+  <sequence>161</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Maneja_Numeracion_Automatica = SI</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463931</millis>
+  <sequence>162</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Numero_Documento = 202</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463931</millis>
+  <sequence>163</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Digita_Valida = Digita</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463932</millis>
+  <sequence>164</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Ano = 2018</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463932</millis>
+  <sequence>165</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Mes = 4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463933</millis>
+  <sequence>166</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Dia = 3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463933</millis>
+  <sequence>167</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Maneja_Moneda_Extranjera = NO</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463933</millis>
+  <sequence>168</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Moneda_Extranjera = USD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463934</millis>
+  <sequence>169</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Valor_Tasa_Extranjera = 2987,25</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463934</millis>
+  <sequence>170</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_No_Comprobante_Enca = 23</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463934</millis>
+  <sequence>171</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Tipo_Cuenta = Inventario</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463935</millis>
+  <sequence>172</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Cuenta = 11050501</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463935</millis>
+  <sequence>173</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Descripcion = Solo Creacion</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463935</millis>
+  <sequence>174</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_NitTercero = Tercero 101</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463936</millis>
+  <sequence>175</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Debito_o_Credito = C</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463936</millis>
+  <sequence>176</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Valor = 3200</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463936</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Observaciones_Nota_Interna = CC-2 - Depreciaci\u00F3n-202</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463938</millis>
+  <sequence>178</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_No_Comprobante_Secu = 21</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:23</date>
+  <millis>1562776463966</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) Direccion = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465255</millis>
+  <sequence>181</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RC_CC Secu con IF, While FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&amp;quot;!==\&amp;quot; at 16:29:  \&amp;quot;!==\&amp;quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+General error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy
+
+groovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy
+	at org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)
+	at org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)
+	at org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)
+	at org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: org.codehaus.groovy.syntax.SyntaxException: Operator ("!==" at 16:29:  "!==" ) not supported @ line 16, column 29.
+	at org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)
+	... 59 more
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1562776420554</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&quot;!==\&quot; at 16:29:  \&quot;!==\&quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&quot;!==\&quot; at 16:29:  \&quot;!==\&quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465268</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RC_CC Secu con IF, While</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465281</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RC_CC Secu con IF, While</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/RC_CC Secu con IF, While</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/RC_CC Secu con IF, While</property>
+  <property name="source">C:\\Users\\vale262268\\Katalon Studio\\TS_Comprobante_Contable\\Test Cases\\RC_CC Secu con IF, While.tc</property>
+  <property name="tag">CC</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465306</millis>
+  <sequence>186</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Tipo_Comprobante = CC-2 - Depreciaci\u00F3n</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465318</millis>
+  <sequence>187</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Maneja_Numeracion_Automatica = SI</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465319</millis>
+  <sequence>188</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Numero_Documento = 203</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465320</millis>
+  <sequence>189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Digita_Valida = Digita</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465320</millis>
+  <sequence>190</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Ano = 2018</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465321</millis>
+  <sequence>191</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Mes = 4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465321</millis>
+  <sequence>192</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Fecha_Dia = 4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465322</millis>
+  <sequence>193</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Maneja_Moneda_Extranjera = NO</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465322</millis>
+  <sequence>194</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Moneda_Extranjera = USD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465322</millis>
+  <sequence>195</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Valor_Tasa_Extranjera = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465323</millis>
+  <sequence>196</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_No_Comprobante_Enca = 24</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465323</millis>
+  <sequence>197</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Tipo_Cuenta = ActivoFijo</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465323</millis>
+  <sequence>198</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Cuenta = 11050501</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465323</millis>
+  <sequence>199</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Descripcion = Solo Creacion</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465324</millis>
+  <sequence>200</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_NitTercero = Tercero 101</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465324</millis>
+  <sequence>201</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Debito_o_Credito = D</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465324</millis>
+  <sequence>202</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Valor = 1000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465325</millis>
+  <sequence>203</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_Observaciones_Nota_Interna = CC-2 - Depreciaci\u00F3n-203</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465325</millis>
+  <sequence>204</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>XLS_No_Comprobante_Secu = 21</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:25</date>
+  <millis>1562776465345</millis>
+  <sequence>205</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) Direccion = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:26</date>
+  <millis>1562776466754</millis>
+  <sequence>207</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RC_CC Secu con IF, While FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&amp;quot;!==\&amp;quot; at 16:29:  \&amp;quot;!==\&amp;quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+General error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy
+
+groovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy
+	at org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)
+	at org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)
+	at org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)
+	at org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: org.codehaus.groovy.syntax.SyntaxException: Operator ("!==" at 16:29:  "!==" ) not supported @ line 16, column 29.
+	at org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)
+	... 59 more
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1562776420554</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&quot;!==\&quot; at 16:29:  \&quot;!==\&quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nGeneral error during class generation: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\r\ngroovy.lang.GroovyRuntimeException: null. file:/C:/Users/vale262268/Katalon%20Studio/TS_Comprobante_Contable/Scripts/RC_CC%20Secu%20con%20IF,%20While/Script1562776363676.groovy\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:257)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBinaryExpression(AsmClassGenerator.java:638)\r\n\tat org.codehaus.groovy.ast.expr.BinaryExpression.visit(BinaryExpression.java:51)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBooleanExpression(AsmClassGenerator.java:760)\r\n\tat org.codehaus.groovy.ast.expr.BooleanExpression.visit(BooleanExpression.java:42)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeIfElse(StatementWriter.java:283)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeIfElse(OptimizingStatementWriter.java:280)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitIfElse(AsmClassGenerator.java:582)\r\n\tat org.codehaus.groovy.ast.stmt.IfStatement.visit(IfStatement.java:43)\r\n\tat org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)\r\n\tat org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)\r\n\tat org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)\r\n\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)\r\n\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)\r\n\tat org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)\r\n\tat org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)\r\n\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)\r\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)\r\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\r\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\r\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\r\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1562776420554.run(TempTestSuite1562776420554.groovy:35)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\nCaused by: org.codehaus.groovy.syntax.SyntaxException: Operator (\&quot;!==\&quot; at 16:29:  \&quot;!==\&quot; ) not supported @ line 16, column 29.\r\n\tat org.codehaus.groovy.classgen.asm.BinaryExpressionHelper.eval(BinaryExpressionHelper.java:256)\r\n\t... 59 more\r\n\r\n1 error\r\n</property>
+</record>
+<record>
+  <date>2019-07-10T11:34:26</date>
+  <millis>1562776466762</millis>
+  <sequence>209</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RC_CC Secu con IF, While</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-10T11:34:28</date>
+  <millis>1562776468107</millis>
+  <sequence>210</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TS_Comprobante</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Login</name>
+   <tag></tag>
+   <comment>Direccion</comment>
+   <testCaseGuid>dac588c8-b5a2-453c-b285-94df8dff9de3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e15c09cb-a9bd-4b7b-8fc3-6505b2df9ed0</id>
+      <masked>false</masked>
+      <name>Direccion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ddb59264-7514-4b51-90f5-8d537a37eb44</id>
+      <masked>false</masked>
+      <name>Usuario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>516b68a8-369c-4e39-a736-742c65ea3698</id>
+      <masked>false</masked>
+      <name>Contrasena</name>
+   </variable>
+</TestCaseEntity>

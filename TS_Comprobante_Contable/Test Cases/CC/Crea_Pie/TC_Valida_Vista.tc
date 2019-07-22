@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Valida_Vista</name>
+   <tag>CC</tag>
+   <comment></comment>
+   <testCaseGuid>8a4196c2-7d6b-4e5b-b431-e025594c9d3a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66ac92b3-66f0-4d21-80ae-3d63c36b0c52</id>
+      <masked>false</masked>
+      <name>XLS_Moneda_Extranjera</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04603b9c-f8b9-4459-9f32-d1694fe883e6</id>
+      <masked>false</masked>
+      <name>XLS_Maneja_Moneda_Extranjera</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e856a88-790a-42df-a97c-5eb370ee8bdf</id>
+      <masked>false</masked>
+      <name>Local_Var_Label_Total</name>
+   </variable>
+</TestCaseEntity>

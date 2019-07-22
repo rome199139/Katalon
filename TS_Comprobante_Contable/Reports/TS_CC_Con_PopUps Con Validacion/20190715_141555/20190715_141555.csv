@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_CC_Con_PopUps Con Validacion,Chrome 75.0.3770.100,,,2019-07-15 14:16:52,2019-07-15 14:17:37,"45,459s",ERROR
+,,,,,,,
+Test Cases/TS_Login/TC_Login,Chrome 75.0.3770.100,,,2019-07-15 14:16:52,2019-07-15 14:17:09,"17,366s",PASSED
+openBrowser(Direccion),Chrome 75.0.3770.100,,,2019-07-15 14:16:53,2019-07-15 14:17:04,"10,941s",PASSED
+maximizeWindow(),Chrome 75.0.3770.100,,,2019-07-15 14:17:04,2019-07-15 14:17:05,"1,200s",PASSED
+"setText(findTestObject(""Object Repository/Page_iSiigo/txt_Usuario""), ""administrador_650@emprendedor.com"")",Chrome 75.0.3770.100,,,2019-07-15 14:17:05,2019-07-15 14:17:06,"0,466s",PASSED
+"setText(findTestObject(""Object Repository/Page_iSiigo/txt_Contrasena""), ""2222"")",Chrome 75.0.3770.100,,,2019-07-15 14:17:06,2019-07-15 14:17:06,"0,264s",PASSED
+"click(findTestObject(""Object Repository/Page_iSiigo/btn_Ingresar""))",Chrome 75.0.3770.100,,,2019-07-15 14:17:06,2019-07-15 14:17:09,"3,622s",PASSED
+comment(Direccion),Chrome 75.0.3770.100,,,2019-07-15 14:17:09,2019-07-15 14:17:09,"0,050s",PASSED
+,,,,,,,
+Test Cases/TS_Menu/TC_Menu,Chrome 75.0.3770.100,TC_Menu,CC,2019-07-15 14:17:09,2019-07-15 14:17:20,"10,798s",PASSED
+"click(findTestObject(""Object Repository/Page_iSiigo/btn_Mas""))",Chrome 75.0.3770.100,,,2019-07-15 14:17:10,2019-07-15 14:17:19,"9,107s",PASSED
+"click(findTestObject(""Object Repository/Page_iSiigo/lnk_Comprobante contable""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,,2019-07-15 14:17:19,2019-07-15 14:17:20,"0,338s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_iSiigo/btn_Guardar""), 10)",Chrome 75.0.3770.100,,,2019-07-15 14:17:20,2019-07-15 14:17:20,"0,720s",PASSED
+,,,,,,,
+Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global,Chrome 75.0.3770.100,,CC,2019-07-15 14:17:20,2019-07-15 14:17:21,"0,950s",ERROR
+Var_Global_No_Comp = XLS_No_Comprobante_Enca,Chrome 75.0.3770.100,,,2019-07-15 14:17:21,2019-07-15 14:17:21,"0,010s",PASSED
+,,,,,,,
+Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps,Chrome 75.0.3770.100,,,2019-07-15 14:17:21,2019-07-15 14:17:23,"1,629s",ERROR
+comment(XLS_No_Comprobante_Secu),Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,001s",PASSED
+comment(Var_Global_No_Comp),Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,000s",PASSED
+,,,,,,,
+Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps,Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,039s",ERROR
+comment(XLS_No_Comprobante_Secu),Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,000s",PASSED
+comment(Var_Global_No_Comp),Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,000s",PASSED
+,,,,,,,
+Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps,Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,044s",ERROR
+comment(XLS_No_Comprobante_Secu),Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,001s",PASSED
+comment(Var_Global_No_Comp),Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,000s",PASSED
+,,,,,,,
+Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps,Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,050s",ERROR
+comment(XLS_No_Comprobante_Secu),Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,000s",PASSED
+comment(Var_Global_No_Comp),Chrome 75.0.3770.100,,,2019-07-15 14:17:23,2019-07-15 14:17:23,"0,016s",PASSED
+,,,,,,,
+Test Cases/CC/Crea_Pie/TC_Crea_Pie Con Validacion,Chrome 75.0.3770.100,TC_Crea_Pie,CC,2019-07-15 14:17:23,2019-07-15 14:17:36,"13,077s",FAILED
+"Var_Local_Total_Debitos = getText(findTestObject(""Page_iSiigo/lbl_Total_Debito""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,156s",PASSED
+"Var_Local_Total_Credito = getText(findTestObject(""Page_iSiigo/lbl_Total_Credito""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,141s",PASSED
+comment(Var_Local_Total_Debitos),Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,004s",PASSED
+comment(Var_Local_Total_Credito),Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,005s",PASSED
+comment(XLS_Crea_Total_Debitos),Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,005s",PASSED
+comment(XLS_Crea_Total_Creditos),Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,004s",PASSED
+"comment(""Valida si es igual los debito con credito"")",Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,000s",PASSED
+"verifyEqual(Var_Local_Total_Debitos, Var_Local_Total_Credito)",Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,031s",PASSED
+"comment(""Valida si es igual al Excel"")",Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,000s",PASSED
+"verifyEqual(XLS_Crea_Total_Debitos, Var_Local_Total_Debitos, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,013s",FAILED
+"verifyEqual(XLS_Crea_Total_Creditos, Var_Local_Total_Credito, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:25,"0,000s",FAILED
+"setText(findTestObject(""Object Repository/Page_iSiigo/txt_Observaciones""), XLS_Observaciones_Nota_Interna)",Chrome 75.0.3770.100,,,2019-07-15 14:17:25,2019-07-15 14:17:26,"0,859s",PASSED
+"click(findTestObject(""Object Repository/Page_iSiigo/btn_Guardar""))",Chrome 75.0.3770.100,,,2019-07-15 14:17:26,2019-07-15 14:17:26,"0,304s",PASSED
+delay(10),Chrome 75.0.3770.100,,,2019-07-15 14:17:26,2019-07-15 14:17:36,"10,017s",PASSED
+"callTestCase(findTestCase(""CC/Crea_Pie/TC_Valida_Vista""), [""XLS_Moneda_Extranjera"":XLS_Moneda_Extranjera, ""XLS_Maneja_Moneda_Extranjera"":XLS_Maneja_Moneda_Extranjera, ""Local_Var_Label_Total"":""""], STOP_ON_FAILURE)",Chrome 75.0.3770.100,,,2019-07-15 14:17:36,2019-07-15 14:17:36,"0,003s",NOT_RUN
+X = CulturaDecimalComaAPunto(X),Chrome 75.0.3770.100,,,2019-07-15 14:17:36,2019-07-15 14:17:36,"0,002s",NOT_RUN
+comment(X),Chrome 75.0.3770.100,,,2019-07-15 14:17:36,2019-07-15 14:17:36,"0,001s",NOT_RUN

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CC_Crea_Secu Con IF</name>
+   <tag></tag>
+   <comment>XLS_No_Comprobante_Secu
+GlobalVariable.Var_Global_No_Comp
+No entro
+GlobalVariable.Var_Global_No_Comp</comment>
+   <testCaseGuid>889b3d7d-4b97-4055-934c-db0432b23e13</testCaseGuid>
+   <variable>
+      <defaultValue>'21'</defaultValue>
+      <description></description>
+      <id>29d95b74-33a1-4c63-859d-66846e517964</id>
+      <masked>false</masked>
+      <name>XLS_No_Comprobante_Secu</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>978bb50e-1c1a-4095-a67b-c175cb37baa4</id>
+      <masked>false</masked>
+      <name>XLS_Tipo_Cuenta</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>431a9854-b5e1-43db-88e4-9f7b4e739f98</id>
+      <masked>false</masked>
+      <name>XLS_Cuenta</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b9bbce7d-a5a8-4023-8265-bd0f76d12ff0</id>
+      <masked>false</masked>
+      <name>XLS_Descripcion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1190725f-088f-468b-9a6e-015844ce3f26</id>
+      <masked>false</masked>
+      <name>XLS_NitTercero</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7614ab6b-240a-414b-bdbf-fcd99a54848a</id>
+      <masked>false</masked>
+      <name>XLS_Debito_o_Credito</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c95e6ecc-9e8b-484e-9a87-31185c83f7ca</id>
+      <masked>false</masked>
+      <name>XLS_Valor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25c63795-5cc2-42e1-a6f2-aae0f24a6c0d</id>
+      <masked>false</masked>
+      <name>XLS_Secuencia</name>
+   </variable>
+</TestCaseEntity>

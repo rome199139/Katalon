@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CC_Crea_Secu Con While</name>
+   <tag></tag>
+   <comment>XLS_No_Comprobante_Secu
+GlobalVariable.Var_Global_No_Comp</comment>
+   <testCaseGuid>dff72776-178c-4784-905a-c2946b1f5863</testCaseGuid>
+   <variable>
+      <defaultValue>'21'</defaultValue>
+      <description></description>
+      <id>1dbb4174-f176-4544-9c51-b1bf50a66410</id>
+      <masked>false</masked>
+      <name>XLS_No_Comprobante_Secu</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad5cf3bb-bd59-480f-9e2c-1c0b8c761829</id>
+      <masked>false</masked>
+      <name>XLS_Tipo_Cuenta</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ab4964e3-7cf2-49a3-a757-20d0020f7e11</id>
+      <masked>false</masked>
+      <name>XLS_Cuenta</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>28fa8dc3-8673-4674-8f9e-7e69392f7c93</id>
+      <masked>false</masked>
+      <name>XLS_Descripcion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>561f0782-0b02-4ff2-9ac0-9a1b0c648a26</id>
+      <masked>false</masked>
+      <name>XLS_NitTercero</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25d39038-6a92-45b3-b298-621d48e308b5</id>
+      <masked>false</masked>
+      <name>XLS_Debito_o_Credito</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>71bba0da-2463-4233-9dfc-6e0c44e3ddc5</id>
+      <masked>false</masked>
+      <name>XLS_Valor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e29ace1-5126-4cd0-b764-1060ea5830ce</id>
+      <masked>false</masked>
+      <name>XLS_Secuencia</name>
+   </variable>
+</TestCaseEntity>

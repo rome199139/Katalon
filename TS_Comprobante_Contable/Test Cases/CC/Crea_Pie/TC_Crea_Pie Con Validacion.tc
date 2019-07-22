@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_Crea_Pie</description>
+   <name>TC_Crea_Pie Con Validacion</name>
+   <tag>CC</tag>
+   <comment>Var_Local_Total_Debitos
+Var_Local_Total_Credito
+XLS_Crea_Total_Debitos
+XLS_Crea_Total_Creditos
+Valida si es igual los debito con credito
+Valida si es igual al Excel
+X</comment>
+   <testCaseGuid>dec3dd85-505d-45f5-a105-608c4bd88a78</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d7bcf9f-4624-4a6f-8262-467be1f5b120</id>
+      <masked>false</masked>
+      <name>XLS_No_Comprobante_Enca</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>029563e8-57bd-4949-ba0c-8573eeadeb01</id>
+      <masked>false</masked>
+      <name>XLS_Observaciones_Nota_Interna</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90e04741-26cf-4fa0-96a3-1fb610c23477</id>
+      <masked>false</masked>
+      <name>XLS_Crea_Total_Debitos</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>23dce0d7-3243-46b5-b47f-f30faf95a56b</id>
+      <masked>false</masked>
+      <name>XLS_Crea_Total_Creditos</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c4c9666c-2b44-4a00-91c8-7e3c4ba4d100</id>
+      <masked>false</masked>
+      <name>Var_Local_Total_Debitos</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8ce504d4-c6bf-41d7-8f2a-4dc409af71e2</id>
+      <masked>false</masked>
+      <name>Var_Local_Total_Credito</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66ac92b3-66f0-4d21-80ae-3d63c36b0c52</id>
+      <masked>false</masked>
+      <name>XLS_Moneda_Extranjera</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04603b9c-f8b9-4459-9f32-d1694fe883e6</id>
+      <masked>false</masked>
+      <name>XLS_Maneja_Moneda_Extranjera</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e856a88-790a-42df-a97c-5eb370ee8bdf</id>
+      <masked>false</masked>
+      <name>Local_Var_Label_Total</name>
+   </variable>
+   <variable>
+      <defaultValue>'4200.00'</defaultValue>
+      <description></description>
+      <id>829b0232-7bae-4625-a8b2-81dca3ea15d3</id>
+      <masked>false</masked>
+      <name>X</name>
+   </variable>
+</TestCaseEntity>

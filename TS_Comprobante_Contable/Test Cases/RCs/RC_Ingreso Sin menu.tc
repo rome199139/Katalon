@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RC_Ingreso Sin menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34a9d4d5-2a92-4926-8077-e5b59d001c31</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>144d1eab-3e0b-44b7-a8ab-267a90d8ff2d</id>
+      <masked>false</masked>
+      <name>Direccion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d0d8108f-da26-410a-8dbe-495be8fc9ec7</id>
+      <masked>false</masked>
+      <name>Usuario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2751675d-305c-4805-a8c1-0e7b56919e37</id>
+      <masked>false</masked>
+      <name>Contrasena</name>
+   </variable>
+</TestCaseEntity>

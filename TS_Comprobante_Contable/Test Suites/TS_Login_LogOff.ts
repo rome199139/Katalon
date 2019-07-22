@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Login_LogOff</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>0c5e7534-f3bd-44e1-a48d-e11e265cc85a</testSuiteGuid>
+   <testCaseLink>
+      <guid>4902d0ed-53ed-4c9d-ad48-e635647975fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TS_Login/TC_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fc4c67bd-7d6f-48ce-95ad-6c2193cfcc1a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DD_Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fc4c67bd-7d6f-48ce-95ad-6c2193cfcc1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Direccion</value>
+         <variableId>e15c09cb-a9bd-4b7b-8fc3-6505b2df9ed0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc4c67bd-7d6f-48ce-95ad-6c2193cfcc1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Usuario</value>
+         <variableId>ddb59264-7514-4b51-90f5-8d537a37eb44</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc4c67bd-7d6f-48ce-95ad-6c2193cfcc1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Contrasena</value>
+         <variableId>516b68a8-369c-4e39-a736-742c65ea3698</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>13f237a5-4d5d-4064-a4e8-ab85e50a3555</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TS_LogOff/TC_LogOff</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

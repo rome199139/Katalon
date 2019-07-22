@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_CC_Con_PopUps Con Validacion" time="45" tests="2" failures="1" errors="5">
+   <testsuite name="TS_CC_Con_PopUps Con Validacion" tests="2" failures="1" errors="5" time="45" timestamp="2019-07-15 14:16:52" hostname="rome199139 - rome199139-12.siigo.com" id="Test Suites/TS_CC_Con_PopUps Con Validacion">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rome199139\\Katalon\\TS_Comprobante_Contable\\Reports\\TS_CC_Con_PopUps Con Validacion\\20190715_141555"/>
+         <property name="logFiles" value="C:\\Users\\rome199139\\Katalon\\TS_Comprobante_Contable\\Reports\\TS_CC_Con_PopUps Con Validacion\\20190715_141555\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rome199139 - rome199139-12.siigo.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="18f69810ec0b3e4b3058346e42ea3389"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TS_Login/TC_Login" classname="Test Cases/TS_Login/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-07-15 14:16:52 - [TEST_CASE][PASSED] - Test Cases/TS_Login/TC_Login: Test Cases/TS_Login/TC_Login
+
+2019-07-15 14:16:53 - [TEST_STEP][PASSED] - openBrowser(Direccion): Browser is opened with url: 'http://co076nt35:8650'
+
+2019-07-15 14:16:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-15 14:16:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-15 14:17:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://co076nt35:8650'
+
+2019-07-15 14:17:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-15 14:17:05 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-15 14:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_iSiigo/txt_Usuario"), "administrador_650@emprendedor.com"): Text 'administrador_650@emprendedor.com' is set on object 'Object Repository/Page_iSiigo/txt_Usuario'
+
+2019-07-15 14:17:06 - [MESSAGE][PASSED] - Text 'administrador_650@emprendedor.com' is set on object 'Object Repository/Page_iSiigo/txt_Usuario'
+
+2019-07-15 14:17:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_iSiigo/txt_Contrasena"), "2222"): Text '2222' is set on object 'Object Repository/Page_iSiigo/txt_Contrasena'
+
+2019-07-15 14:17:06 - [MESSAGE][PASSED] - Text '2222' is set on object 'Object Repository/Page_iSiigo/txt_Contrasena'
+
+2019-07-15 14:17:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_iSiigo/btn_Ingresar")): Object: 'Object Repository/Page_iSiigo/btn_Ingresar' is clicked on
+
+2019-07-15 14:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iSiigo/btn_Ingresar' is clicked on
+
+2019-07-15 14:17:09 - [TEST_STEP][PASSED] - comment(Direccion): http://co076nt35:8650
+
+2019-07-15 14:17:09 - [MESSAGE][INFO] - http://co076nt35:8650]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS_Menu/TC_Menu" classname="Test Cases/TS_Menu/TC_Menu" status="PASSED">
+         <system-out><![CDATA[2019-07-15 14:17:09 - [TEST_CASE][PASSED] - Test Cases/TS_Menu/TC_Menu: Test Cases/TS_Menu/TC_Menu
+
+2019-07-15 14:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_iSiigo/btn_Mas")): Object: 'Object Repository/Page_iSiigo/btn_Mas' is clicked on
+
+2019-07-15 14:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iSiigo/btn_Mas' is clicked on
+
+2019-07-15 14:17:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_iSiigo/lnk_Comprobante contable"), STOP_ON_FAILURE): Object: 'Object Repository/Page_iSiigo/lnk_Comprobante contable' is clicked on
+
+2019-07-15 14:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iSiigo/lnk_Comprobante contable' is clicked on
+
+2019-07-15 14:17:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_iSiigo/btn_Guardar"), 10): Object 'Object Repository/Page_iSiigo/btn_Guardar' is present
+
+2019-07-15 14:17:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_iSiigo/btn_Guardar' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global" classname="Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global" status="ERROR">
+         <error type="ERROR" message="Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problem: 
+
+	at internal.GlobalVariable.&lt;clinit>(GlobalVariable.groovy:1)
+	at TC_CC_Crea_Enca Con Variable Global.run(TC_CC_Crea_Enca Con Variable Global:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-15 14:17:20 - [TEST_CASE][ERROR] - Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global: Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problem: 
+
+	at internal.GlobalVariable.<clinit>(GlobalVariable.groovy:1)
+	at TC_CC_Crea_Enca Con Variable Global.run(TC_CC_Crea_Enca Con Variable Global:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+
+
+2019-07-15 14:17:21 - [TEST_STEP][PASSED] - Var_Global_No_Comp = XLS_No_Comprobante_Enca: null]]></system-out>
+         <system-err><![CDATA[2019-07-15 14:17:20 - [TEST_CASE][ERROR] - Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global: Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problem: 
+
+	at internal.GlobalVariable.<clinit>(GlobalVariable.groovy:1)
+	at TC_CC_Crea_Enca Con Variable Global.run(TC_CC_Crea_Enca Con Variable Global:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps" classname="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps" status="ERROR">
+         <error type="ERROR" message="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-15 14:17:21 - [TEST_CASE][ERROR] - Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps: Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+
+
+2019-07-15 14:17:23 - [TEST_STEP][PASSED] - comment(XLS_No_Comprobante_Secu): 21
+
+2019-07-15 14:17:23 - [MESSAGE][INFO] - 21
+
+2019-07-15 14:17:23 - [TEST_STEP][PASSED] - comment(Var_Global_No_Comp): null]]></system-out>
+         <system-err><![CDATA[2019-07-15 14:17:21 - [TEST_CASE][ERROR] - Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps: Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps" classname="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps" status="ERROR">
+         <error type="ERROR" message="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-15 14:17:23 - [TEST_CASE][ERROR] - Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps: Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+
+
+2019-07-15 14:17:23 - [TEST_STEP][PASSED] - comment(XLS_No_Comprobante_Secu): 21
+
+2019-07-15 14:17:23 - [MESSAGE][INFO] - 21
+
+2019-07-15 14:17:23 - [TEST_STEP][PASSED] - comment(Var_Global_No_Comp): null]]></system-out>
+         <system-err><![CDATA[2019-07-15 14:17:23 - [TEST_CASE][ERROR] - Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps: Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps" classname="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps" status="ERROR">
+         <error type="ERROR" message="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-15 14:17:23 - [TEST_CASE][ERROR] - Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps: Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+
+
+2019-07-15 14:17:23 - [TEST_STEP][PASSED] - comment(XLS_No_Comprobante_Secu): 21
+
+2019-07-15 14:17:23 - [MESSAGE][INFO] - 21
+
+2019-07-15 14:17:23 - [TEST_STEP][PASSED] - comment(Var_Global_No_Comp): null]]></system-out>
+         <system-err><![CDATA[2019-07-15 14:17:23 - [TEST_CASE][ERROR] - Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps: Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps" classname="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps" status="ERROR">
+         <error type="ERROR" message="Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-15 14:17:23 - [TEST_CASE][ERROR] - Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps: Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+
+
+2019-07-15 14:17:23 - [TEST_STEP][PASSED] - comment(XLS_No_Comprobante_Secu): 21
+
+2019-07-15 14:17:23 - [MESSAGE][INFO] - 21
+
+2019-07-15 14:17:23 - [TEST_STEP][PASSED] - comment(Var_Global_No_Comp): null]]></system-out>
+         <system-err><![CDATA[2019-07-15 14:17:23 - [TEST_CASE][ERROR] - Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps: Test Cases/CC Con popups/CC_Crea_Secu/TC_CC_Crea_Secu Con While PopUps FAILED.
+Reason:
+java.lang.NoClassDefFoundError: Could not initialize class internal.GlobalVariable
+	at TC_CC_Crea_Secu Con While PopUps.run(TC_CC_Crea_Secu Con While PopUps:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CC/Crea_Pie/TC_Crea_Pie Con Validacion" classname="Test Cases/CC/Crea_Pie/TC_Crea_Pie Con Validacion" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CC/Crea_Pie/TC_Crea_Pie Con Validacion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '4200' and expected object '0.00' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	... 18 more
+"/>
+         <system-out><![CDATA[2019-07-15 14:17:23 - [TEST_CASE][FAILED] - Test Cases/CC/Crea_Pie/TC_Crea_Pie Con Validacion: Test Cases/CC/Crea_Pie/TC_Crea_Pie Con Validacion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '4200' and expected object '0.00' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	... 18 more
+
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - Var_Local_Total_Debitos = getText(findTestObject("Page_iSiigo/lbl_Total_Debito"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_iSiigo/lbl_Total_Debito' is: '0.00'
+
+2019-07-15 14:17:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_iSiigo/lbl_Total_Debito' is: '0.00'
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - Var_Local_Total_Credito = getText(findTestObject("Page_iSiigo/lbl_Total_Credito"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_iSiigo/lbl_Total_Credito' is: '0.00'
+
+2019-07-15 14:17:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_iSiigo/lbl_Total_Credito' is: '0.00'
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - comment(Var_Local_Total_Debitos): 0.00
+
+2019-07-15 14:17:25 - [MESSAGE][INFO] - 0.00
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - comment(Var_Local_Total_Credito): 0.00
+
+2019-07-15 14:17:25 - [MESSAGE][INFO] - 0.00
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - comment(XLS_Crea_Total_Debitos): 4200
+
+2019-07-15 14:17:25 - [MESSAGE][INFO] - 4200
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - comment(XLS_Crea_Total_Creditos): 4200
+
+2019-07-15 14:17:25 - [MESSAGE][INFO] - 4200
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - comment("Valida si es igual los debito con credito"): Valida si es igual los debito con credito
+
+2019-07-15 14:17:25 - [MESSAGE][INFO] - Valida si es igual los debito con credito
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - verifyEqual(Var_Local_Total_Debitos, Var_Local_Total_Credito): Actual object '0.00' and expected object '0.00' are equal
+
+2019-07-15 14:17:25 - [MESSAGE][PASSED] - Actual object '0.00' and expected object '0.00' are equal
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - comment("Valida si es igual al Excel"): Valida si es igual al Excel
+
+2019-07-15 14:17:25 - [MESSAGE][INFO] - Valida si es igual al Excel
+
+2019-07-15 14:17:25 - [TEST_STEP][FAILED] - verifyEqual(XLS_Crea_Total_Debitos, Var_Local_Total_Debitos, CONTINUE_ON_FAILURE): Unable to verify equal between actual object '4200' and expected object '0.00' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+)
+
+2019-07-15 14:17:25 - [MESSAGE][FAILED] - Unable to verify equal between actual object '4200' and expected object '0.00' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+)
+
+2019-07-15 14:17:25 - [TEST_STEP][FAILED] - verifyEqual(XLS_Crea_Total_Creditos, Var_Local_Total_Credito, CONTINUE_ON_FAILURE): Unable to verify equal between actual object '4200' and expected object '0.00' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+)
+
+2019-07-15 14:17:25 - [MESSAGE][FAILED] - Unable to verify equal between actual object '4200' and expected object '0.00' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+)
+
+2019-07-15 14:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_iSiigo/txt_Observaciones"), XLS_Observaciones_Nota_Interna): Text 'CC-2 - Depreciación-200' is set on object 'Object Repository/Page_iSiigo/txt_Observaciones'
+
+2019-07-15 14:17:26 - [MESSAGE][PASSED] - Text 'CC-2 - Depreciación-200' is set on object 'Object Repository/Page_iSiigo/txt_Observaciones'
+
+2019-07-15 14:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_iSiigo/btn_Guardar")): Object: 'Object Repository/Page_iSiigo/btn_Guardar' is clicked on
+
+2019-07-15 14:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iSiigo/btn_Guardar' is clicked on
+
+2019-07-15 14:17:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-15 14:17:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-15 14:17:36 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("CC/Crea_Pie/TC_Valida_Vista"), ["XLS_Moneda_Extranjera":XLS_Moneda_Extranjera, "XLS_Maneja_Moneda_Extranjera":XLS_Maneja_Moneda_Extranjera, "Local_Var_Label_Total":""], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("CC/Crea_Pie/TC_Valida_Vista"), ["XLS_Moneda_Extranjera":XLS_Moneda_Extranjera, "XLS_Maneja_Moneda_Extranjera":XLS_Maneja_Moneda_Extranjera, "Local_Var_Label_Total":""], STOP_ON_FAILURE)
+
+2019-07-15 14:17:36 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("CC/Crea_Pie/TC_Valida_Vista"), ["XLS_Moneda_Extranjera":XLS_Moneda_Extranjera, "XLS_Maneja_Moneda_Extranjera":XLS_Maneja_Moneda_Extranjera, "Local_Var_Label_Total":""], STOP_ON_FAILURE)
+
+2019-07-15 14:17:36 - [TEST_STEP][NOT_RUN] - X = CulturaDecimalComaAPunto(X): NOT_RUN: X = CulturaDecimalComaAPunto(X)
+
+2019-07-15 14:17:36 - [MESSAGE][NOT_RUN] - NOT_RUN: X = CulturaDecimalComaAPunto(X)
+
+2019-07-15 14:17:36 - [TEST_STEP][NOT_RUN] - comment(X): NOT_RUN: comment(X)
+
+2019-07-15 14:17:36 - [MESSAGE][NOT_RUN] - NOT_RUN: comment(X)]]></system-out>
+         <system-err><![CDATA[2019-07-15 14:17:23 - [TEST_CASE][FAILED] - Test Cases/CC/Crea_Pie/TC_Crea_Pie Con Validacion: Test Cases/CC/Crea_Pie/TC_Crea_Pie Con Validacion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '4200' and expected object '0.00' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at TC_Crea_Pie Con Validacion.run(TC_Crea_Pie Con Validacion:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '4200' and expected object '0.00' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	... 18 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-15 14:16:52 - [TEST_SUITE][ERROR] - TS_CC_Con_PopUps Con Validacion: Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problem: 
+
+	at internal.GlobalVariable.<clinit>(GlobalVariable.groovy:1)
+	at TC_CC_Crea_Enca Con Variable Global.run(TC_CC_Crea_Enca Con Variable Global:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-15 14:16:52 - [TEST_SUITE][ERROR] - TS_CC_Con_PopUps Con Validacion: Test Cases/CC/CC_Crea_Enca/TC_CC_Crea_Enca Con Variable Global FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problem: 
+
+	at internal.GlobalVariable.<clinit>(GlobalVariable.groovy:1)
+	at TC_CC_Crea_Enca Con Variable Global.run(TC_CC_Crea_Enca Con Variable Global:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563218159675.run(TempTestSuite1563218159675.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

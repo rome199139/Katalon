@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RC_CC sin condiciones con login</name>
+   <tag>CC</tag>
+   <comment>Direccion</comment>
+   <testCaseGuid>8c560089-c562-4f19-9387-16ddd827fb47</testCaseGuid>
+   <variable>
+      <defaultValue>'http://co076nt35:8650'</defaultValue>
+      <description></description>
+      <id>4890a809-6af3-471a-b98c-91579047a1e7</id>
+      <masked>false</masked>
+      <name>Direccion</name>
+   </variable>
+</TestCaseEntity>
